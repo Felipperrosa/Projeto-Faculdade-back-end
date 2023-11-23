@@ -1,4 +1,5 @@
 function validaForm() {
+  event.preventDefault();
   var nomeInput = document.getElementById("nome");
   var nomeError = document.getElementById("nomeError");
   var labelNome = document.getElementById("labelNome");
